@@ -1,0 +1,36 @@
+body {
+  background-color: hsl(0, 0%, 100%);
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  margin: 10rem auto;
+}
+.first {
+  background-color: hsl(252, 100%, 67%);
+  border-radius: 10px;
+  padding: 25px;
+  width: 11rem;
+  height: 14.5rem;
+}
+.number {
+  text-align: center;
+  border-radius: 50%;
+  width: 6rem;
+  background-color: hsl(241, 81%, 54%);
+  height: 50%;
+  margin: auto;
+}
+.sub--number {
+  display: block;
+  font-size: 40px;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* @media screen and (max-width: 567px) {
+  .container {
+    display: block;
+  }
+} */
