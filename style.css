@@ -1,5 +1,6 @@
 body {
   background-color: hsl(0, 0%, 100%);
+  font-family: sans-serif;
 }
 .container {
   display: flex;
@@ -7,30 +8,119 @@ body {
   width: 60%;
   margin: 10rem auto;
 }
-.first {
+.first--box {
   background-color: hsl(252, 100%, 67%);
-  border-radius: 10px;
+  border-radius: 20px;
   padding: 25px;
-  width: 11rem;
-  height: 14.5rem;
+  width: 16rem;
+  height: 22rem;
+  display: block;
 }
+
+.paragraph {
+  font-size: 17px;
+  text-align: center;
+  color: hsl(240, 43%, 88%);
+}
+
 .number {
   text-align: center;
   border-radius: 50%;
-  width: 6rem;
+  width: 9rem;
   background-color: hsl(241, 81%, 54%);
-  height: 50%;
-  margin: auto;
-}
-.sub--number {
-  display: block;
-  font-size: 40px;
-  text-align: center;
-  padding: 10px 0;
+  height: 9rem;
+  margin: 45px;
+  margin-top: 25px;
+  padding: 15px;
+  align-items: center;
+  justify-content: center;
 }
 
+.sub--total {
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  padding: 25px;
+  margin-bottom: 30px;
+}
+
+.percent {
+  color: white;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 2rem;
+}
 /* @media screen and (max-width: 567px) {
   .container {
     display: block;
   }
 } */
+
+.second--box {
+  background-color: hsl(221, 100%, 96%);
+  border-radius: 10px;
+  padding: 25px;
+  width: 16rem;
+  height: 17rem;
+  margin: auto;
+}
+
+.Reaction {
+  color: hsl(0, 100%, 67%);
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+  height: 2rem;
+  margin: 15px;
+  padding: 10px;
+}
+
+.Memory {
+  color: hsl(39, 100%, 56%);
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 10px;
+  height: 2rem;
+  margin: 15px;
+}
+
+.Verbal {
+  color: hsl(103, 100%, 50%);
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 10px;
+  height: 2rem;
+  background-color: aquamarine;
+  margin: 15px;
+}
+.Visual {
+  color: hsl(234, 85%, 45%);
+  background-color: hsl(241, 100%, 89%);
+  border-radius: 10px;
+  height: 2rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  margin: 15px;
+}
+
+.Continue {
+  background-color: hsl(224, 30%, 27%);
+  height: 2.5rem;
+  border-radius: 25px;
+  text-align: center;
+  margin: 25px;
+  margin-left: 19px;
+  margin-right: 19px;
+}
+.hundred {
+  font-size: 1.25rem;
+}
+
+.selection-box {
+  padding: 1.25rem;
+}
